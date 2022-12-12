@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T18:15:16.998Z" agent="5.0 (X11)" version="20.6.2" etag="UfRprDLYnWD5KqVztMHC" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T18:24:13.808Z" agent="5.0 (X11)" version="20.6.2" etag="NseDABhuF1awjRL-ddeL" type="github">
   <diagram id="-67JX8EoMGBzsWgSO_TP" name="Página-1">
-    <mxGraphModel dx="1102" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EZZaGdJ52GDNcbhEZRCu-1" value="Quadro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="60" width="240" height="300" as="geometry" />
+          <mxGeometry x="530" y="60" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="EZZaGdJ52GDNcbhEZRCu-2" value="#labelquadrado: QLabel*&#xa;#pix: QPixmap&#xa;#posicao: int&#xa;#tipo: int&#xa;#v_pos_tipo: vector&lt;int&gt;&#xa;#v: vector&lt;int&gt;&#xa;#pontuacao: int&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-1">
           <mxGeometry y="26" width="240" height="134" as="geometry" />
@@ -28,17 +28,38 @@
         <mxCell id="EZZaGdJ52GDNcbhEZRCu-8" value="-fill_v_decisao():void&#xa;-quadro_escolha(QWidget*=null):quadro_escolha&#xa;-quadro_escolha(posicao:int):quadro_escolha&#xa;-buttom_display():void&#xa;-AcaoAoClicar1():void&#xa;-AcaoAoClicar2():void&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-5">
           <mxGeometry y="88" width="310" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="EZZaGdJ52GDNcbhEZRCu-9" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="530" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="EZZaGdJ52GDNcbhEZRCu-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-9">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-9" value="Quadro_historia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="500" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EZZaGdJ52GDNcbhEZRCu-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-9">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="26" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="EZZaGdJ52GDNcbhEZRCu-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-9">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-12" value="-quadro_historia(QWidget*=null):quadro_historia&#xa;-quadro_historia(posicao:int):quadro_historia&#xa;-buttom_display():void&#xa;-AcaoAoClicar():void&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-9">
+          <mxGeometry y="34" width="310" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-13" value="Quadro_final" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="500" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-14" value="+instancia:quadro_final*&#xa;+quadro_final(QWidget*=null):quadro_final&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-13">
+          <mxGeometry y="26" width="290" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-13">
+          <mxGeometry y="90" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-16" value="-getInstancia():quadro_final*&#xa;-buttomDisplay():void&#xa;-AcaoAoClicar():void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-13">
+          <mxGeometry y="98" width="290" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-21" value="Janela" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-22" value="+label: QLabel*&#xa;+pix: QPixmap&#xa;+w:int&#xa;+h:int&#xa;+quadro_historia: QWidget*&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-21">
+          <mxGeometry y="26" width="190" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-21">
+          <mxGeometry y="140" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EZZaGdJ52GDNcbhEZRCu-24" value="+Janela()&#xa;+AcaoAoClicar():void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZZaGdJ52GDNcbhEZRCu-21">
+          <mxGeometry y="148" width="190" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
